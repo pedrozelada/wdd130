@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Slabo+27px&display=swap');
+
+body {
+    font-family: 'Slabo-27px', Helvetica, sans-serif;
+    font-size: 22px; 
+    margin: 0;
+    padding: 0;
+}
+
 #content {
-    max-width: 1200px; /* Adjust this value to your desired maximum width */
-    margin: 0 auto; /* Centers the content horizontally */
-    padding: 20px; /* Optional: Add padding to the content container */
+    max-width: 1600px; 
+    margin: 0 auto; 
+    padding: 20px; 
 }
 
 nav a {
     text-align: center;
     color: #000000;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -42,6 +52,10 @@ nav a:hover {
     background-color: #abd2fa; 
     color: #000000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -55,15 +69,20 @@ nav a:hover {
 
 .msg {
     background-color: #63ceec; 
+    line-height: 1.5em;
 }
 
 footer {
     background-color: #333; 
     color: #d9c2a3;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #000000;
+    font-family: 'Bebas Neue', sans-serif, Helvetica;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -71,11 +90,13 @@ h4 {
 }
 
 .msg h2 {
-    background-color: #63ceec; 
+    background-color: #63ceec;
+    font-family: 'Bebas Neue', sans-serif; 
 }
 
 .msg p {
     background-color: #63ceec; 
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -91,15 +112,16 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
-/* Make hero image responsive */
+
 #hero-img {
-    width: 100%; /* Width set to 100% for responsiveness */
+    width: 100%; 
 }
 
 .logo {
-    width: 80px; /* Width for logo */
+    width: 80px; 
 }
 
 footer p {
@@ -109,3 +131,15 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}

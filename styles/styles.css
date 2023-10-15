@@ -3,13 +3,16 @@ body {
   }
   nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 25px;
+    margin: 0
   }
   a {
     color: white;
     margin: 40px;
+    padding: 25px;
   }
   h1 {
+    margin: 50px 0;
     color: steelblue;
   }
   img {
@@ -23,3 +26,6 @@ body {
     background-color: steelblue;
     color: white;
   }
+  footer p {
+    padding: 25px;
+}
