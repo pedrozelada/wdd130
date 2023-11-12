@@ -284,3 +284,51 @@ main section img {
     }
 }
             
+
+/* FAQ */
+
+
+.home-grid2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-row-gap: 20px; /* Espacio vertical entre filas */
+
+}
+
+.q1-card{
+    grid-column: 1/6;
+    grid-row: 2/3;
+}
+.image1-card{
+    grid-column: 7/10;
+    grid-row: 2/3;
+}
+.q2-card{
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
+.image2-card{
+    grid-column: 7/10;
+    grid-row: 4/5;
+}
+.q3-card{
+    grid-column: 1/6;
+    grid-row: 6/7;
+}
+.image3-card{
+    grid-column: 7/10;
+    grid-row: 6/7;
+}
+.q4-card{
+    grid-column: 1/11;
+    grid-row: 8/9;
+}
+.q5-card{
+    grid-column: 1/11;
+    grid-row: 10/11;
+}
+
+.image1-card, .image2-card, .image3-card {
+    border: 2% solid #d9c2a3;
+    
+}
