@@ -35,6 +35,9 @@ h1 {
 nav {
     margin-left: auto; 
     margin-right: 200px; 
+    display: flex;
+    justify-content: space-around;
+    
     
 }
 
@@ -128,11 +131,12 @@ footer p a:hover {
         margin: 0 auto;
     }
     .card-img {
-        max-width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+        max-width: 100%; 
     }
 
-    nav, footer {
+    header, footer {
         flex-direction: column;
+        
     }
     nav a {
         display: block;
@@ -141,6 +145,8 @@ footer p a:hover {
   
 
     .home-grid {
+       
+        justify-content: center;
         grid-template-columns: 1fr;
         grid-gap: 20px;
     }
