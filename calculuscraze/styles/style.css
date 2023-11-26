@@ -122,6 +122,15 @@ footer p a:hover {
 }    
 
 @media screen and (max-width: 900px) {
+    .home-container {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .card-img {
+        max-width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    }
+
     nav, footer {
         flex-direction: column;
     }
@@ -129,7 +138,7 @@ footer p a:hover {
         display: block;
         padding: 15px;
     }
-   
+  
 
     .home-grid {
         grid-template-columns: 1fr;
