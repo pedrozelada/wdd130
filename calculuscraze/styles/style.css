@@ -69,8 +69,8 @@ main {
     text-align: center;
 }
 .Introduction p {
-    max-width: 800px; /* Puedes ajustar el ancho máximo según tus preferencias */
-    margin: 0 auto; /* Esto centrará el párrafo horizontalmente */
+    max-width: 800px; 
+    margin: 0 auto; 
   }
  
 .home-grid {
@@ -155,6 +155,16 @@ h1 {
     margin-bottom: 20px; /* Puedes ajustar este valor según sea necesario */
 }
 
+.home-grid-videos {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+}
+
   
 
 @media screen and (max-width: 900px) {
@@ -183,6 +193,14 @@ h1 {
         grid-template-columns: 1fr;
         grid-gap: 20px;
     }
+    .home-grid-videos {
+       
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+
+
     footer {
         margin-top: 25px;
     }
