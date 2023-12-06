@@ -148,7 +148,14 @@ footer a:hover {
 }
 footer p a:hover {
     text-decoration: underline;
-}    
+
+}   
+/* videos */
+h1 {
+    margin-bottom: 20px; /* Puedes ajustar este valor según sea necesario */
+}
+
+  
 
 @media screen and (max-width: 900px) {
     .home-container {
@@ -180,3 +187,5 @@ footer p a:hover {
         margin-top: 25px;
     }
 }
+
+
