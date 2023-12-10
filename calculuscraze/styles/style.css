@@ -169,6 +169,26 @@ h1 {
     grid-gap: 60px;
 }
 
+
+
+/* books */
+.home-grid-books {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+}
+
+.card-img2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 10px solid  #50C878;
+    
+}
   
 
 @media screen and (max-width: 900px) {
@@ -198,6 +218,12 @@ h1 {
         grid-gap: 20px;
     }
     .home-grid-videos {
+       
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
+    .home-grid-books {
        
         justify-content: center;
         grid-template-columns: 1fr;
