@@ -75,12 +75,12 @@ main {
  
 .home-grid {
     margin-top: 100px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 45px;
+    grid-gap: 60px;
 }
 
 .Q2-image{
@@ -223,10 +223,13 @@ h1 {
         grid-gap: 20px;
     }
     .home-grid-videos {
-       
         justify-content: center;
         grid-template-columns: 1fr;
         grid-gap: 20px;
+    }
+
+    .home-grid-videos iframe {
+        max-width: 100%; /* Hacer que los iframes sean responsivos */
     }
     .home-grid-books {
        
@@ -234,7 +237,6 @@ h1 {
         grid-template-columns: 1fr;
         grid-gap: 20px;
     }
-
 
     footer {
         margin-top: 25px;
