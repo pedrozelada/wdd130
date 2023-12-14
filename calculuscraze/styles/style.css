@@ -82,10 +82,14 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
 }
+.Q1-image{
+    margin-left: auto; 
+    margin-right: auto; 
+}
 
 .Q2-image{
     margin-left: auto; 
-    
+    margin-right: auto; 
 }
 
 .card-img1:hover {
@@ -215,22 +219,27 @@ h1 {
         padding: 15px;
     }
   
-
     .home-grid {
-       
+        max-width: 100%; 
         justify-content: center;
         grid-template-columns: 1fr;
-        grid-gap: 20px;
+        grid-gap: 5px;
+    }
+    .iframe1 {
+        max-width: 100%; 
+
     }
     .home-grid-videos {
-        justify-content: center;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
+        width: 80%;
+        display: block;
+        margin: 0 auto;
     }
+  
 
     .home-grid-videos iframe {
-        max-width: 100%; /* Hacer que los iframes sean responsivos */
+        max-width: 100%;  
     }
+
     .home-grid-books {
        
         justify-content: center;
